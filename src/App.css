@@ -1,3 +1,260 @@
+html {
+  background: url(https://images.unsplash.com/photo-1512429234305-12fe5b0b0f07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1 {
+  margin-top: 140px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.7em;
+  text-shadow: 11px 11px 7px grey;
+  color: teal;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 130px;
+}
+
+h3 {
+  text-align: center;
+}
+
+label {
+  font-size: 1.8rem;
+  font-family: 'Lobster Two', cursive;
+}
+
+.content {
+  justify-content: center;
+  text-align: center;
+  margin-top: 460px;
+  opacity: 0.5;
+}
+
+.text {
+  width: 60%;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linkNavs {
+  word-spacing: 16px;
+  margin-top: 440px;
+  word-spacing: 32px;
+  font-size: 2em;
+  color: teal;
+  width: 100%;
+  text-align: center;
+}
+
+.linkNavs a {
+  text-decoration: none;
+  transform: scale(1.1);
+  color: teal;
+}
+
+.linkNavs a:hover {
+  text-decoration: none;
+  color: #cea135;
+}
+
+/* social media icons */
+.social-media-icons {
+  margin-top: 40px;
+  text-align: center;
+  word-spacing: 22px;
+}
+
+#img1 {
+transition: all .2s ease-in-out;
+}
+
+#img1:hover {
+  transform: scale(1.7);
+}
+
+#img2 {
+transition: all .2s ease-in-out;
+}
+
+#img2:hover {
+  transform: scale(1.7);
+}
+
+#img3 {
+transition: all .2s ease-in-out;
+}
+
+#img3:hover {
+  transform: scale(1.7);
+}
+
+#img4 {
+transition: all .2s ease-in-out;
+}
+
+#img4:hover {
+  transform: scale(1.7);
+}
+
+#img5 {
+transition: all .2s ease-in-out;
+}
+
+#img5:hover {
+  transform: scale(1.7);
+}
+
+/* .grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); } */
+
+.social-media-icons:hover {
+  cursor: pointer;
+  transition-delay: 0.2s;
+}
+
+/* gallery css */
+.gallery-block {
+  padding-top: 100px;
+}
+
+.content-1 {
+  padding-top: 70px;
+  margin-top: 80px;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  float: left;
+}
+
+.content-2 {
+  padding-top: 70px;
+  margin-top: 80px;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  float: right;
+}
+
+.content-3 {
+  padding-top: 70px;
+  margin-top: 30px;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  float: left;
+}
+
+.content-4 {
+  padding-top: 70px;
+  margin-top: 50px;
+  width: 50%;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  float: right;
+  margin-bottom: 190px;
+}
+
+/* footer css */
+
+.bottom-content {
+  font-size: 2.3em;
+  width: 100%;
+  height: 80vh;
+  display: inline-table;
+  text-align: center;
+}
+
+
+.bottom-content li {
+  list-style: none;
+}
+
+.copyRight {
+  font-size: 23px;
+  padding-bottom: 60px;
+}
+
+@media (max-width:600px) {
+  .content-1 {
+    margin-top: 90px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .content-2 {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .content-3 {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .content-4 {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 190px;
+  }
+
+  .social-media-icons {
+    margin-top: 180px;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+  }
+
+  .social-media-icons img {
+    font-size: 3em;
+  }
+
+  /* footer css */
+
+  .bottom-content {
+    font-size: 2.3em;
+    width: 100%;
+    height: 60vh;
+    display: block;
+    text-align: center;
+  }
+
+
+  .bottom-content li {
+    list-style: none;
+  }
+
+  .copyRight {
+    padding-bottom: 60px;
+  }
+}
+
+
 .App {
   text-align: center;
 }
@@ -9,13 +266,12 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 15s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
